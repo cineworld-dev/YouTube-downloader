@@ -1,7 +1,29 @@
 {
   "name": "youtube-downloader-api",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "YouTube Video Downloader API with quality selection",
+  "main": "api/download.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "ytdl-core": "^4.11.3"
-  }
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "youtube",
+    "downloader",
+    "api",
+    "video",
+    "vercel"
+  ],
+  "author": "zero",
+  "license": "MIT"
 }
