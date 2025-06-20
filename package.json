@@ -2,7 +2,7 @@
   "name": "youtube-downloader-api",
   "version": "1.0.0",
   "description": "YouTube Video Downloader API with quality selection",
-  "main": "api/download.js",
+  "main": "api/index.js",
   "scripts": {
     "dev": "vercel dev"
   },
