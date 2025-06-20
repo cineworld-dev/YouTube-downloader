@@ -4,9 +4,7 @@
   "description": "YouTube Video Downloader API with quality selection",
   "main": "api/download.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'Build complete'",
-    "start": "node server.js"
+    "dev": "vercel dev"
   },
   "dependencies": {
     "ytdl-core": "^4.11.5"
@@ -24,6 +22,6 @@
     "video",
     "vercel"
   ],
-  "author": "zero",
+  "author": "Your Name",
   "license": "MIT"
 }
